@@ -25,3 +25,6 @@ const pictures = document.querySelectorAll(".picture");
 list.style.display = "flex";
 list.style.listStyle = "none";
 list.style.gap = "10px";
+galleryList.style.display = "flex";
+galleryList.style.listStyle = "none";
+galleryList.style.gap = "10px";
