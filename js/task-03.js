@@ -18,13 +18,7 @@ images.forEach((image) => {
   const markup = `<li><img src="${image.url}" alt="${image.alt}" width = 500px/></li>`;
   galleryList.insertAdjacentHTML("beforeend", markup);
 });
-console.log(galleryList);
 
-const pictures = document.querySelectorAll(".picture");
-
-list.style.display = "flex";
-list.style.listStyle = "none";
-list.style.gap = "10px";
 galleryList.style.display = "flex";
 galleryList.style.listStyle = "none";
 galleryList.style.gap = "10px";
